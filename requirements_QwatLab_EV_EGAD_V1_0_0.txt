@@ -1,0 +1,15 @@
+# QwatLab_GPS_EGAD_V1_0_0
+# Runtime dependencies detected from the source code.
+# Standard-library modules such as os, tempfile, math, time, io,
+# datetime, zipfile, gc, json, atexit and xml.etree.ElementTree
+# are intentionally not listed.
+
+numpy
+pandas
+scipy
+numba
+streamlit
+plotly
+matplotlib
+openpyxl
+XlsxWriter
