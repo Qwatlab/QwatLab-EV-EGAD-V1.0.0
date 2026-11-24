@@ -4,6 +4,7 @@ Dasturdan foydalanishdan avval litsenziya va dasturdan foydalanish talablarini o
 
 🇺🇿 Oʻzbek tilidagi tavsif
 QwatLab - EGAD GPS Analyzer V1.0.0 — xom GPS (GPX, KML, CSV, XLSX) ma'lumotlarini o'qish, yuqori aniqlikdagi 3D kinematikani hisoblash, topografik relyef, ob-havo (ISA) va elektromobil (EV) harakat dinamikasini raqamli egizak (Digital Twin) formatida modellashtirish uchun mo'ljallangan Python dasturiy platformasi.
+V1.1.4 yuklandi, avvalgi xatoliklar tahriralandi
 Dasturiy platforma tavsifi
 Ushbu platforma GPS datchiklaridan olingan trayektoriyalarni "Dual-Pipeline" (Ikki oqimli: Xom va Filtrlangan) rejimida tahlil qilib, 9D Kalman filtrlari orqali xatolarni tozalaydi. Dastur Streamlit freymvorkiga asoslangan bo'lib, barcha matematik dvigatellar interfeysdan to'liq ajratilgan holda, sof "Qora quti" mantiqida ishlaydi. U foydalanuvchiga ob-havo va transport parametrlarini kiritish, dinamik kuchlarni hisoblash va natijalarni kompleks eksport qilish imkonini beradi.
 Asosiy hisoblash va tahlil yo‘nalishlari
@@ -38,6 +39,7 @@ Ushbu platforma ilmiy tadqiqotlar uchun ochiq kodli muhiti sifatida xizmat qilad
 🇬🇧 English Description
 Software Platform Overview
 QwatLab - EGAD GPS Analyzer V1.0.0 is a Python-based software platform designed to read raw GPS data (GPX, KML, CSV, XLSX) and model high-precision 3D kinematics, topographic relief, environmental conditions (ISA), and electric vehicle (EV) dynamics in a Digital Twin format. Operating on a Dual-Pipeline architecture (Raw and Filtered data), the system utilizes 9D Kalman filters to process trajectory data. Built on the Streamlit framework, its mathematical and physics engines function as independent "Black Boxes" fully isolated from the user interface.
+Uploaded V1.1.4, corrected errors in previous calculations
 Core Computational and Analytical Features
 * Data Parsing and Validation: Secure extraction of GPX/KML/CSV/XLSX files with a rigorous Fail-Fast Z-axis (elevation) validation protocol to prevent critical calculation anomalies.
 * 3D Kinematics Engine: WGS84 to ECEF/ENU projections, 9D RTS Kalman filtering, Zero Velocity Update (ZUPT), and Savitzky-Golay filtering to calculate velocity, acceleration, jerk, and turning radius.
